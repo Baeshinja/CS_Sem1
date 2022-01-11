@@ -1,0 +1,89 @@
+// base code file
+#include "./hfiles/poole.h"
+
+///////////////////////////////////////////////////////////////////////
+
+main(){
+	srand(time(NULL));
+	gotoxy(50,5);
+	cout<<'-';
+	gotoxy(51,5);
+	cout<<'-';
+	gotoxy(52,5);
+	cout<<'-';
+	gotoxy(53,5);
+	cout<<'-';
+	gotoxy(54,5);
+	cout<<'-';
+	gotoxy(55,5);
+	cout<<'-';
+	gotoxy(56,5);
+	cout<<'-';
+	gotoxy(57,5);
+	cout<<'-';
+	gotoxy(58,6);
+	cout<<')';
+	gotoxy(49,6);
+	cout<<'(';
+	gotoxy(48,7);
+	cout<<'(';
+	gotoxy(59,7);
+	cout<<')';
+	gotoxy(51,7);
+	cout<<'O';
+	gotoxy(56,7);
+	cout<<'O';
+	gotoxy(48,8);
+	cout<<'(';
+	gotoxy(59,8);
+	cout<<')';
+	gotoxy(49,9);
+	cout<<'(';
+	gotoxy(58,9);
+	cout<<')';
+	gotoxy(50,10);
+	cout<<'-';
+	gotoxy(51,10);
+	cout<<'-';
+	gotoxy(52,10);
+	cout<<'-';
+	gotoxy(53,10);
+	cout<<'-';
+	gotoxy(54,10);
+	cout<<'-';
+	gotoxy(55,10);
+	cout<<'-';
+	gotoxy(56,10);
+	cout<<'-';
+	gotoxy(57,10);
+	cout<<'-';
+	gotoxy(53,8);
+	cout<<'<';
+	gotoxy(54,8);
+	cout<<'-';
+	gotoxy(55,8);
+	cout<<'>';
+	gotoxy(54,9);
+	cout<<'V';
+	
+	gotoxy(53,11);
+	cout<<'(';
+	gotoxy(56,11);
+	cout<<')';
+	gotoxy(55,13);
+	cout<<'U';
+
+	gotoxy(3,5);
+	cout<<'T';
+	gotoxy(3+1,5);
+	cout<<'U';
+	gotoxy(3+2,5);
+	cout<<'R';
+	gotoxy(3+3,5);
+	cout<<'K';
+	gotoxy(3+4,5);
+	cout<<'E';
+	gotoxy(3+5,5);
+	cout<<'Y';
+
+}
